@@ -1,0 +1,124 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: 980%;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 40px;
+    /* padding-bottom: 50px; */
+}
+
+a{
+    color: #fff;
+    font-size: large;
+    text-decoration: none;
+}
+
+.explore-container{
+    color: #fff;
+    float: right;
+    height: 94%;
+    width: 95%;
+    max-width: 500px;
+    margin: 50px auto;
+    margin-right: 145px;
+    padding-left: 100px;
+} 
+
+
+.icon i{
+    color: #fff;
+    font-size: medium;
+    margin-top: 3px;
+}
+
+
+.fa-solid:hover{
+    color: aqua;
+}
+
+img{
+    height: 86vh;
+    margin-left: 220px;
+    margin-top: 90px;
+}
+
+form {
+    margin-top: 25px;
+  }
+  input[type="text"], input[type="email"], input[type="phoneNumber"], input[type="datetime-local"], input[type="time"], textarea {
+    width: 70%;
+    height: 75px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-right: 300px;
+  }
+  input[type="submit"] {
+    background-color: #ffa500;
+    color: #fff;
+    border: none;
+    width: 70%;
+    padding: 12px 20px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color:transparent;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+
+.btn{
+    background-color: #ffa500;
+    color: #333;
+    border: none;
+    padding:10px 20px ;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: cursive;
+    font-size: large;
+    font-weight: bold;
+}
+
+.btn:hover{
+    border: 2px solid #fff;
+    background-color:transparent;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+
+    img{
+       width: 90%;
+       height: 70%;
+       margin-left: 145px;
+       /* padding-right:150%; */
+    }
+
+    .a1{
+        width: 50%;
+        text-align: center;
+        font-size: smaller;
+        
+    }
+  }
+  
